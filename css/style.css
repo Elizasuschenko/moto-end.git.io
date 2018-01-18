@@ -803,6 +803,43 @@ footer .soc a img{
   width: 30px;
   height: 30px;
 }
+#modal-window-1 #one:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-1 #two:checked ~ .two {
+  opacity: 1;
+}
+#modal-window-2 #one-2:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-2 #two-2:checked ~ .two {
+  opacity: 1;
+}
+#modal-window-3 #one-3:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-3 #two-3:checked ~ .two {
+  opacity: 1;
+}
+#modal-window-4 #one-4:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-4 #two-4:checked ~ .two {
+  opacity: 1;
+}
+#modal-window-5 #one-5:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-5 #two-5:checked ~ .two {
+  opacity: 1;
+}
+#modal-window-6 #one-6:checked ~ .one {
+  opacity: 1;
+}
+#modal-window-6 #two-6:checked ~ .two {
+  opacity: 1;
+}
+
 .modal-window-content form .one{
   background-image: url(../img/katalog/shlem-1.jpg);
   background-position: center center;
@@ -810,6 +847,7 @@ footer .soc a img{
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: -3px;
+  opacity: 0.6;
 }
 .modal-window-content form .two{
   background-image: url(../img/katalog/shlem.jpg);
@@ -817,6 +855,10 @@ footer .soc a img{
   background-repeat: no-repeat;
   margin-left: 5px;
   margin-right: 5px;
+  opacity: 0.6;
+}
+.on{
+  opacity: 1!important;
 }
 .modal-window-content form [type="submit"]{
   height: 42px;
@@ -1165,6 +1207,9 @@ footer .soc{
 .modal-window{
   overflow-y: scroll;
 }
+.modal-window-block>img{
+  position: relative;
+}
 }
 
 
@@ -1411,6 +1456,9 @@ footer .soc{
 }
 .modal-window{
   overflow-y: scroll;
+}
+.modal-window-block>img{
+  position: relative;
 }
 }
 
