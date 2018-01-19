@@ -1163,7 +1163,8 @@ header nav .menu ul li a{
   margin-left: 0px;
 }
 .slid-text p{
-  font-size: 5px 0px 5px 25px;
+  padding: : 5px 0px 5px 25px;
+  font-size: 12px;
 }
 #otziv .slick-list{
   padding-bottom: 30px;
