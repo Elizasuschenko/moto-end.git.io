@@ -83,10 +83,10 @@ header nav{
   font-size: 24px!important;
   text-transform: uppercase;
   margin-left: 5px!important;
-  -webkit-transform: translateX(5px);
-  -ms-transform: translateX(5px);
-  -o-transform: translateX(5px);
-  transform: translateX(5px);
+  -webkit-transform: translateX(9px);
+  -ms-transform: translateX(9px);
+  -o-transform: translateX(9px);
+  transform: translateX(9px);
   line-height: 20px;
 }
 .logo a span:first-of-type{
